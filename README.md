@@ -11,7 +11,7 @@ Future-proof the company by determining how many people will be retiring and, of
 	- Write basic- to intermediate-level SQL statements.
 
 Image of ERD:
-
+![alt text](https://github.com/Al-Huneidi/Pewlett_Hackard_Analysis/blob/master/EmployeeDB.png)
 
 Resources:
 departments.csv
