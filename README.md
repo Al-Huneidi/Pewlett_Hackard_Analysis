@@ -23,9 +23,9 @@ emp_info.csv
 
 
 # Challenge
-	•	
+	
 ### Part 1
-	•	
+	
 1. Create a table with the number of retirees by title.
 Table includes:
 	- Employee Number
@@ -34,18 +34,20 @@ Table includes:
 	- Title
 	- from_date
 	- Salary
-	•	
-	2. Create a table to answer the question “Who’s Ready for a Mentor?”.
-	Table includes:
+	
+2. Create a table to answer the question “Who’s Ready for a Mentor?”.
+Table includes:
 	- Employee Number
 	- First Name
 	- Last Name
 	- Title
 	- from_date and to_date
-	•	
-### Part 2 - Create a technical report in markdown format that contains the following:
+	
+	
+### Part 2 - Create a technical report in markdown format.
+Report contains the following:
 	- Brief Project summary
 	- PNG of ERD
-
+	
 	- Code for the requested queries, with examples of each output:
 
