@@ -79,7 +79,7 @@ ON (ri.emp_no = ti.emp_no)
 INNER JOIN salaries AS s
 ON (ri.emp_no = s.emp_no)
 ORDER BY emp_no ASC;
-
+1[alt text](https://github.com/Al-Huneidi/Pewlett_Hackard_Analysis/blob/master/screenshots/titles_retiring_info.png)
 ￼
 
 
