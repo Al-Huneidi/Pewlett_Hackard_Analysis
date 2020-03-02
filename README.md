@@ -23,9 +23,12 @@ emp_info.csv
 
 
 # Challenge - Technical Report
-	
-Objective
+
+## Objective
 To create a list of candidates for the mentorship program.
+
+Physical Diagram of the database used.
+![alt text](
 
 Work to be done to get a list of candidates for the mentorship program required creating a few more tables.
 1. Created a list of current employees born from 01-01-1965 to 12-31-1965.
