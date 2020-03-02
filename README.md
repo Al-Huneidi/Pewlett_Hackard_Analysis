@@ -116,7 +116,7 @@ FROM
 (PARTITION BY (emp_no, first_name, last_name) ORDER BY emp_no ASC) rn
    FROM born_supervisor
   ) tmp WHERE rn = 1;
-
+![alt text](https://github.com/Al-Huneidi/Pewlett_Hackard_Analysis/blob/master/screenshots/mentors-no-dups.png)
 ￼
 
 Then I had to create one more table to add the title, from_date, and to_date fields for a complete table with all necessary information.
