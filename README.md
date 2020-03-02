@@ -61,7 +61,7 @@ ON (ri.emp_no = ti.emp_no)
 INNER JOIN salaries AS s
 ON (ri.emp_no = s.emp_no)
 ORDER BY emp_no ASC;
-￼
+￼![alt text](https://github.com/Al-Huneidi/Pewlett_Hackard_Analysis/blob/master/screenshots/titles_retiring.png)
 
 Then I made another query to add the to_date field as I noticed it was missing and needed to be added.
 -- Create a list with the number of titles retiring including to_date field.
