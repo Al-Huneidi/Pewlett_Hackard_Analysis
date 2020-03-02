@@ -79,9 +79,8 @@ ON (ri.emp_no = ti.emp_no)
 INNER JOIN salaries AS s
 ON (ri.emp_no = s.emp_no)
 ORDER BY emp_no ASC;
-1[alt text](https://github.com/Al-Huneidi/Pewlett_Hackard_Analysis/blob/master/screenshots/titles_retiring_info.png)
+![alt text](https://github.com/Al-Huneidi/Pewlett_Hackard_Analysis/blob/master/screenshots/titles_retiring_info.png)
 ￼
-
 
 3. I partitioned the table titles_retiring_info to delete duplicates so I could get a count of all the employees per title.
 -- Delete employees that have held a title more than once in table that includes to_date.
@@ -93,7 +92,7 @@ FROM
 (PARTITION BY (emp_no, first_name, last_name) ORDER BY from_date DESC) rn
    FROM titles_retiring_info
   ) tmp WHERE rn = 1;
-
+![alt text](
 ￼
 
 Then I created a table to show the count of employees with each title in alphabetical order.
