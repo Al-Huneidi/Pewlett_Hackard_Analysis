@@ -41,7 +41,7 @@ LEFT JOIN current_emp AS ce
 ON (e.emp_no = ce.emp_no)
 WHERE (birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY emp_no ASC;
-￼
+￼![alt text](https://github.com/Al-Huneidi/Pewlett_Hackard_Analysis/blob/master/screenshots/born_supervisor.png)
 
 2. Create a table with the number of retirees with their titles and a finally a count of each title.
 -- Create a list with the number of titles retiring.
