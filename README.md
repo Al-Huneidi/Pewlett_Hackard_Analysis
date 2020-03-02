@@ -131,7 +131,7 @@ INTO for_mentors
 FROM mentors_no_dups AS mnd
 INNER JOIN titles AS ti
 ON (mnd.emp_no = ti.emp_no);
-
+![alt text](https://github.com/Al-Huneidi/Pewlett_Hackard_Analysis/blob/master/screenshots/for_mentors.png)
 ￼
 
 Observationsand Recommendations:
