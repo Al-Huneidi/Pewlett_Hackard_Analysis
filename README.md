@@ -102,7 +102,7 @@ INTO count_title
 FROM unique_titles_info
 GROUP BY unique_titles_info.title
 ORDER BY title;
-![alt text](
+![alt text](https://github.com/Al-Huneidi/Pewlett_Hackard_Analysis/blob/master/screenshots/count_title.png)
 ￼
 
 4. Filtered the born_supervisor table, employees born between 01-01-1965 and 12-31-1965 to remove any duplicates in order to find a list of potential mentors.
